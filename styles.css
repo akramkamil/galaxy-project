@@ -54,3 +54,113 @@ nav ul {
   float:right;
   list-style-type:none;
 }
+@media (max-width: 650px){
+  nav ul {
+    flex-direction: column;
+  }
+  img{
+    top:0px;
+  }
+}
+
+input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+input[type="email"]{
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+.grid {
+    display: flex;
+}
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+.fa-fire:before {
+    content: "\f06d";
+}
+#first{
+  padding:100px;
+  background-color:#c3c3c3
+}
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+  margin-top: 60px;      
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#pricing #tenor, #pricing #bass, #pricing #valve{
+  display: flex;
+  flex-direction:column;
+  text-align:center;
+  align-items: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: red;
+  margin-right:30px
+}  
+.btn{
+  background-color: yellow;
+}
+ol {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+footer{
+  justify-content:center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ddd;
+}
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type:none;
+}
+footer ul li{
+  padding: 0px 10px 0px 10px;
+}
+footer span{
+  margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
